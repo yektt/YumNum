@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/yektt/YumNum/issues"
   },
-  "homepage": "https://github.com/yektt/YumNum#readme"
+  "homepage": "https://github.com/yektt/YumNum#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
 }
