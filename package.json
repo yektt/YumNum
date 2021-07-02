@@ -24,5 +24,8 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "lite-server": "2.6"
   }
 }
