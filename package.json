@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/yektt/YumNum#readme",
   "dependencies": {
-    "bootstrap": "^5.0.2"
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.12.9"
   }
 }
