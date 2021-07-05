@@ -88,3 +88,10 @@ body {
     color: #AE7778;
     text-decoration: none;
 }
+
+footer {    
+  position: fixed;
+  bottom : 0;
+  left : 0;
+  right : 0;
+}
