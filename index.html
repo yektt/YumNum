@@ -30,12 +30,66 @@
                         <li class="nav-item"><a class="nav-link" href="myorders.html"><span class="fa fa-cutlery"></span> My Orders</a></li>
                     </ul>
                     <ul class="navbar-nav align-items-center">
-                        <li class="nav-item navbar-text"><a class="nav-link btn" href="mycart.html"><span class="fa fa-shopping-cart fa-lg"></span> Cart</a></li>
+                        <li class="nav-item navbar-text"><a class="nav-link btn" data-bs-toggle="modal" data-bs-target="#mycartModal"><span class="fa fa-shopping-cart fa-lg"></span> Cart</a></li>
                         <li class="nav-item navbar-text"><a class="btn p-0"><span class="fa fa-sign-out"> Logout</span></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <div class="modal fade" id="mycartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">My Cart</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                    <div class="card-body">
+                        <div class="row justify-content-between">
+                            <h5>From: Toriko </h5>
+                          <div class="col-10">
+                            <h5>Order details</h5>
+                          </div>
+                          <div class="col-2">
+                            <h5>Price</h5>
+                          </div>
+                        </div>
+                        
+                        <div class="d-flex row row-order-content">
+                          <img src="img/toriko/tunaburger.jpg" class="img-fluid rounded-start col-3">
+                          <div class="ml-2 col-7">
+                            <h5>Fish Burgers</h5>
+                            <h5>Quantite:2</h5>
+                            <h5>Notes: one with salmon, one with tuna please.</h5>
+                          </div>
+                          <h5 class="col-2">12.98$</h5>
+                        </div>
+
+                        <div class="d-flex row row-order-content">
+                          <img src="img/toriko/omasake.jpg" class="img-fluid rounded-start col-3">
+                          <div class="ml-2 col-7">
+                            <h5>Omasake Box</h5>
+                            <h5>Quantite:1</h5>
+                            <h5>Notes: -</h5>
+                          </div>
+                          <h5 class="col-2">25.99$</h5>
+                        </div>
+
+                        <div class="d-flex row row-order-content justify-content-end">
+                          <h5 class="col-2">38.97$</h5>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-warning">Order Now</button>
+                </div>
+              </div>
+            </div>
+        </div>
 
         <header class="jumbotron mt-1">
             <div class="container p-0">
