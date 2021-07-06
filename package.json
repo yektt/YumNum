@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/yektt/YumNum#readme",
   "dependencies": {
+    "lite-server": "^2.3.0",
     "bootstrap": "^5.0.2",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
