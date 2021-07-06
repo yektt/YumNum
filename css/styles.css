@@ -89,6 +89,11 @@ body {
     text-decoration: none;
 }
 
+#dish_name, #dish_price, #dish_desc{
+  color: #AE7778;
+  text-decoration: none;
+}
+
 footer {    
   position: fixed;
   bottom : 0;
